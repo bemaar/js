@@ -1,6 +1,10 @@
 # createTreeStructure
 
+---
+
 Converts a flat list items to tree structure.
+
+### Implementation
 
 ```javascript
 const createTreeStructure = ({
@@ -27,7 +31,7 @@ const createTreeStructure = ({
     });
 ```
 
-## Example:
+## Usage
 
 ```javascript
 const flatList = [
@@ -40,8 +44,11 @@ const flatList = [
 ];
 
 const treeStructure = createTreeStructure({ items: flatList });
+```
 
-// treeStructure >>
+### Output
+
+```javascript
 [
   {
     children: [],
