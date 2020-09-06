@@ -2,7 +2,7 @@
 
 Converts a flat list items to tree structure.
 
-### Implementation
+## Implementation
 
 ```javascript
 const createTreeStructure = ({
