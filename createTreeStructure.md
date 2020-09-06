@@ -47,6 +47,7 @@ const treeStructure = createTreeStructure({ items: flatList });
 ### Output
 
 ```javascript
+// treeStructure
 [
   {
     children: [],
