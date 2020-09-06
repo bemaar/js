@@ -1,7 +1,5 @@
 # createTreeStructure
 
----
-
 Converts a flat list items to tree structure.
 
 ### Implementation
