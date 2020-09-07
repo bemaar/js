@@ -19,5 +19,4 @@ const now = getColonTimeFromDate(new Date());
 ```javascript
 // now
 '20:24:28';
-
 ```
