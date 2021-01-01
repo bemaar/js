@@ -6,14 +6,11 @@ Select any number of properties from a JavaScript object.
 
 ```javascript
 const selectPropertiesFromAnObject = (obj, ...props) =>
-  props.reduce(
-    (result, prop) => {
-      result[prop] = obj[prop];
-      return result;
-    },
+  props.reduce((result, prop) => {
+    result[prop] = obj[prop];
 
-    {}
-  );
+    return result;
+  }, {});
 ```
 
 ## Usage
