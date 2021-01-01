@@ -22,5 +22,5 @@ const daysDiff = getDaysDiffBetweenDates(
 
 ```javascript
 // daysDiff
-10;
+10
 ```
