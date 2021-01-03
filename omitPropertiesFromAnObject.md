@@ -39,5 +39,5 @@ const withoutAgeAndPosition = omitPropertiesFromAnObject(
 {firstName: 'Paul', lastName: 'Brown', position: 'CEO'}
 
 // withoutAgeAndPosition
-{firstName: "Paul", lastName: "Brown"}
+{firstName: 'Paul', lastName: 'Brown'}
 ```
